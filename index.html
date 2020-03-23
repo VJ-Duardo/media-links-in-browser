@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Watch mp4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1> mp4 from URL </h1>
+        <div id="content">
+            <div id="input">
+                <table>
+                    <tr>
+                        <td>URL: </td>
+                        <td><textarea id="url" cols="100" rows="2"></textarea></td>
+                    </tr>
+                </table>
+                <button onclick="startFromInput()">Start</button>
+            </div>
+            <div>
+                <video id="video" width="500" height="400" controls>
+                    <source src="" type="video/mp4">
+                    Something went wrong.
+                </video>
+            </div>
+        </div>    
+        <footer>
+            <div id="author">
+                <p><b> By VJ-Duardo </b></p>
+                <p> Github: <a href="https://github.com/VJ-Duardo/Braille-Art" target="_blank">VJ-Duardo/watch-mp4-links</a></p>
+            </div>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+html {
+    margin-left: 50px;
+    color: WhiteSmoke;
+    background-color: dimgray;
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    overflow-y: scroll;
+}
+
+#content {
+    padding: 50px;
+}
+
+#input > * {
+    margin-bottom: 10px;
+}
+
+#input {
+    margin-bottom: 20px;
+}
+
+#url {
+    resize: horizontal; 
+    white-space: nowrap;
+    overflow-y: hidden; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position:fixed;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    background:rgba(230,230,230,0.5);
+    color: black;
+}
+
+footer p {
+    margin-left: 50px;
+    
+}
