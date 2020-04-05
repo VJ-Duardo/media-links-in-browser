@@ -1,4 +1,4 @@
-# watch-mp4-links
-Allows you to share and watch .mp4 and other formats such as .webm, .mov links without the need to download them.
+# media-links-in-browser
+Allows you to share and view video and audio urls directly in browser. Supports formats such as mp4, webm, mov, mp3 and more.
 
-https://vj-duardo.github.io/watch-mp4-links/
+https://vj-duardo.github.io/media-links-in-browser/
