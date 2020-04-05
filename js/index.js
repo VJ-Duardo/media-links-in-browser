@@ -1,4 +1,4 @@
-var thisSite = "https://vj-duardo.github.io/watch-mp4-links/";
+var thisSite = "https://vj-duardo.github.io/media-links-in-browser/";
 var regex = thisSite + '\\??';
 
 var inputField = document.getElementById("url");
